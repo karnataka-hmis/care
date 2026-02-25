@@ -16,5 +16,4 @@ plugs = [
     )
 ]
 
-
 manager = PlugManager(plugs)
