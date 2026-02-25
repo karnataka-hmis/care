@@ -11,7 +11,7 @@ plugs = [
     Plug(
         name="abdm",
         package_name="git+https://github.com/10bedicu/care_abdm.git",
-        version="@develop",
+        version="@production",
         configs={},
     )
 ]
