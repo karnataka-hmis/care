@@ -13,7 +13,13 @@ plugs = [
         package_name="git+https://github.com/10bedicu/care_abdm.git",
         version="@production",
         configs={},
-    )
+    ),
+    Plug(
+        name="care_scribe",
+        package_name="git+https://github.com/10bedicu/care_scribe.git",
+        version="@master",
+        configs={},
+    ),
 ]
 
 
